@@ -13,4 +13,3 @@ child = root.xpath('//child')[0]
 
 print(child.text)
 print(child.get('name'))
-print("two")
