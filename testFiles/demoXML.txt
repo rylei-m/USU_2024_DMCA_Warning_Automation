@@ -1,0 +1,21 @@
+<INCIDENT>
+
+<DESCRIPTION>xml email processing</DESCRIPTION>
+
+<SERVICE>Desktop Service</SERVICE>
+
+<CATEGORY>Performance Issue</CATEGORY>
+
+<OWNER>Quality Assurance</OWNER>
+
+<OWNERTEAM>IT</OWNERTEAM>
+
+<URGENCY>Medium</URGENCY>
+
+<IMPACT>Medium</IMPACT>
+
+<SOURCE>Email</SOURCE>
+
+<PROFILELINK>Kelly Yao</PROFILELINK>
+
+</INCIDENT>

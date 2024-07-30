@@ -1,0 +1,21 @@
+<INCIDENT>
+
+<DESCRIPTION>Test XML </DESCRIPTION>
+
+<SERVICE>Desktop Service</SERVICE>
+
+<CATEGORY>Performance Issue</CATEGORY>
+
+<OWNERTEAM>Operations</OWNERTEAM>
+
+<OWNER>Administrator Admin</OWNER>
+
+<URGENCY>Medium</URGENCY>
+
+<IMPACT>Medium</IMPACT>
+
+<SOURCE>Email</SOURCE>
+
+<PROFILELINK>Administrator Admin</PROFILELINK>
+
+</INCIDENT>
