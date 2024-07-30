@@ -4,6 +4,9 @@
 Program to removing XML tagging from emails sent by the DMCA. 
 Intended to make sending automated warning emails to violators easier. 
 
+## How to Run
+idk yet
+
 ## Resources:
 
 Import for XML Parsing: https://lxml.de/api.html
