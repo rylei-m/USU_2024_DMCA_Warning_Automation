@@ -1,6 +1,6 @@
 import os
 import json
-from XMLforDMCA.Main import main  # Import the main function
+from XMLforDMCA.Main import main
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 xml_path = os.path.join(script_dir, '../testFiles/demoIgnore.xml')
