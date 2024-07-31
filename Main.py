@@ -4,8 +4,8 @@ import os
 from XMLforDMCA.incoming.parser import extract_data, strip_namespace
 
 
-def main(xml_path):
-    tree = ET.parse(xml_path)
+def main(path):
+    tree = ET.parse(path)
     root = tree.getroot()
     data = extract_data(root)
     return {
@@ -14,9 +14,9 @@ def main(xml_path):
     }
 
 
-def save_to_json(output_data, output_path):
-    with open(output_path, 'w') as file:
-        json.dump(output_data, file, indent=4)
+def save_to_json(data, path):
+    with open(path, 'w') as file:
+        json.dump(data, file, indent=4)
 
 
 if __name__ == '__main__':
