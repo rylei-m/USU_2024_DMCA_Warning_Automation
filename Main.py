@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 
 from XMLforDMCA.Config import JSON_DIR, XML_PATH, JSON_BASE_NAME, JSON_EXTENSION
-from XMLforDMCA.outgoing.EmailTemplate import generated_email_subject, generated_email_body
+from XMLforDMCA.email.creation.EmailTemplate import generated_email_subject, generated_email_body
 from XMLforDMCA.parsedData.JsonUtils import save_to_json
 from XMLforDMCA.incoming.parser import extract_data, strip_namespace
 
