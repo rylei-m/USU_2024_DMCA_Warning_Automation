@@ -23,7 +23,7 @@ if __name__ == '__main__':
     script_dir = os.path.dirname(os.path.abspath(__file__))
     xml_path = '/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/testFiles/demoIgnore.xml'
 
-    output_dir = '/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/parsedData'
+    output_dir = '/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/parsedData/JSONS'
     output_path = os.path.join(output_dir, 'parsedData.json')
 
     if not os.path.exists(output_dir):

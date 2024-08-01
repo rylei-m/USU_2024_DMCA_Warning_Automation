@@ -1,4 +1,4 @@
 __pycache__/
 incoming/__pycache__/
 testFiles/demoIgnore.xml
-/parsedData/parsedData.json
+/parsedData/JSONS/parsedData.json
