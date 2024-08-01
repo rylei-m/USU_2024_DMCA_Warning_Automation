@@ -1,10 +1,3 @@
-import xml.etree.ElementTree as ET
-
-tree = ET.parse('/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/testFiles/demoIgnore.xml')
-root = tree.getroot()
-# namespace = {'ns': 'http://www.acns.net/ACNS'}
-
-
 def strip_namespace(tag):
     return tag.split("}")[1] if "}" in tag else tag
 
