@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 
-from XMLforDMCA.parsedData.json_utils import save_to_json
+from XMLforDMCA.parsedData.JsonUtils import save_to_json
 from XMLforDMCA.incoming.parser import extract_data, strip_namespace
 
 
