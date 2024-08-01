@@ -1,17 +1,13 @@
 import os
 
+from XMLforDMCA.Config import XML_PATH, JSON_DIR, JSON_BASE_NAME, JSON_EXTENSION
 from XMLforDMCA.Main import main
 from XMLforDMCA.parsedData.JsonUtils import save_to_json
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-xml_path = os.path.join(script_dir, '../testFiles/demo3.xml')
+if not os.path.exists(JSON_DIR):
+    os.makedirs(JSON_DIR)
 
-output_data = main(xml_path)
-
-output_dir = os.path.join(script_dir, 'parsedData')
-base_name = "parsedData"
-extension = ".json"
-
-output_path = save_to_json(output_data, output_dir, base_name, extension)
+output_data = main(XML_PATH)
+output_path = save_to_json(output_data, JSON_DIR, JSON_BASE_NAME, JSON_EXTENSION)  # Save to JSON
 
 print(f"Data saved to {output_path}")

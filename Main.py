@@ -1,6 +1,8 @@
 import xml.etree.ElementTree as ET
 import os
 
+from XMLforDMCA.Config import JSON_DIR, XML_PATH, JSON_BASE_NAME, JSON_EXTENSION
+from XMLforDMCA.outgoing.EmailTemplate import generated_email
 from XMLforDMCA.parsedData.JsonUtils import save_to_json
 from XMLforDMCA.incoming.parser import extract_data, strip_namespace
 
@@ -16,17 +18,12 @@ def main(path):
 
 
 if __name__ == '__main__':
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    xml_path = '/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/testFiles/demo.xml'
+    if not os.path.exists(JSON_DIR):
+        os.makedirs(JSON_DIR)
 
-    output_dir = '/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/parsedData/JSONS'
-    base_name = "parsedData"
-    extension = ".json"
-
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-
-    output_data = main(xml_path)
-    output_path = save_to_json(output_data, output_dir, base_name, extension)
+    output_data = main(XML_PATH)
+    output_path = save_to_json(output_data, JSON_DIR, JSON_BASE_NAME, JSON_EXTENSION)
 
     print(f"Data saved to {output_path}")
+
+    generated_email()
