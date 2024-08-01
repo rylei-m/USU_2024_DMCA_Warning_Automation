@@ -1,5 +1,5 @@
 import os
-import json
+
 from XMLforDMCA.Main import main
 from XMLforDMCA.parsedData.json_utils import save_to_json
 
