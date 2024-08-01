@@ -11,11 +11,11 @@ def generated_email_body():
     body = f"""
     Dear {IP_Address},
     
-    You are receiving this message to bring to your attention a matter of urgent importance regarding an infringement of copyright. It has come to our attention that you have unlawfully accessed content owned by {Contact} via {SubType_Protocol} at {Timestamp}.
+    You are receiving this message to bring to your attention a matter of urgent importance regarding an infringement of copyright. It has come to our attention that you have unlawfully accessed content owned by {Contact} via {SubType_Protocol} on {Timestamp}.
     
     Details of Infringement:
     
-    Description of Infringing Content: {Title} owned by {Contact} was unlawfully accessed.
+    Description of Infringing Content: {Title}.
     Location of Infringement: {Type}
     Original Work Details: {FileName}
     
