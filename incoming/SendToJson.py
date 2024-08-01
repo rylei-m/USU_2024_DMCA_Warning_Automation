@@ -1,7 +1,7 @@
 import os
 
 from XMLforDMCA.Main import main
-from XMLforDMCA.parsedData.json_utils import save_to_json
+from XMLforDMCA.parsedData.JsonUtils import save_to_json
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 xml_path = os.path.join(script_dir, '../testFiles/demo3.xml')

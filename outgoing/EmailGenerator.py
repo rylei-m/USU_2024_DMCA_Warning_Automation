@@ -1,6 +1,6 @@
 import smtplib
 
-from XMLforDMCA.outgoing.emailTemplate import subject, body
+from XMLforDMCA.outgoing.EmailTemplate import subject, body
 
 """
 The smtplib library is a powerful tool that allows you to send emails using the Simple Mail Transfer Protocol (SMTP). 
