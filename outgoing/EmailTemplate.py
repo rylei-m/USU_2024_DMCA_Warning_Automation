@@ -1,8 +1,13 @@
 from XMLforDMCA.parsedData.JsonConverter import (Title, IP_Address, Contact, Type, FileName, SubType_Protocol, Timestamp)
 
 
-def generated_email():
+def generated_email_subject():
     subject = 'NOTICE: Copyright Infringement Warning'
+    print(subject)
+    return subject
+
+
+def generated_email_body():
     body = f"""
     Dear {IP_Address},
     
@@ -36,5 +41,5 @@ def generated_email():
     [Your Email Address]
     """
 
-    print(subject)
     print(body)
+    return body
