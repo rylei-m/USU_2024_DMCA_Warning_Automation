@@ -4,3 +4,4 @@ testFiles/
 /parsedData/JSONS/
 email/outgoing/USUEmailServer.py
 /email/outgoing/privateUserInfo
+/email/creation/privateEmailInfo
