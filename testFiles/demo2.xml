@@ -1,21 +1,38 @@
-<INCIDENT>
-
-<DESCRIPTION>Test XML </DESCRIPTION>
-
-<SERVICE>Desktop Service</SERVICE>
-
-<CATEGORY>Performance Issue</CATEGORY>
-
-<OWNERTEAM>Operations</OWNERTEAM>
-
-<OWNER>Administrator Admin</OWNER>
-
-<URGENCY>Medium</URGENCY>
-
-<IMPACT>Medium</IMPACT>
-
-<SOURCE>Email</SOURCE>
-
-<PROFILELINK>Administrator Admin</PROFILELINK>
-
-</INCIDENT>
+<?xml version="1.0" encoding="UTF-8"?>
+<Infringement xmlns="http://www.acns.net/ACNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.acns.net/ACNS http://www.acns.net/v1.2/ACNS2v1_2.xsd">
+    <Alive>The following data is made up for testing purposes:</Alive>
+    <Case>
+    <ID>7b9d8a4d4decc63146c8</ID>
+    <Status>Open</Status>
+    <Severity>Normal</Severity>
+  </Case>
+  <Complainant>
+    <Entity>Another Corporation</Entity>
+    <Contact>Some Contact</Contact>
+    <Address>1234 Somewhat St,
+City, State Zip</Address>
+    <Phone>+1 (234) 567 8900</Phone>
+    <Email>notice@copyright.com</Email>
+  </Complainant>
+  <Service_Provider>
+    <Entity>Some Entity</Entity>
+    <Email>Entity@email.com</Email>
+  </Service_Provider>
+  <Source>
+    <TimeStamp>2024-02-18T01:10:03Z</TimeStamp>
+    <IP_Address>123.456.789.0</IP_Address>
+    <Port>12345</Port>
+    <Type>Bittorrent</Type>
+    <SubType BaseType="P2P" Protocol="BITTORRENT"/>
+    <Number_Files>1</Number_Files>
+  </Source>
+  <Content>
+    <Item>
+      <TimeStamp>2024-02-18T01:10:03Z</TimeStamp>
+      <Title>Cars</Title>
+      <FileName>Cars (2006) [REPACK] [1080p] [BluRay] [5.1] [YTS.MX]</FileName>
+      <FileSize>1823997290</FileSize>
+      <Hash Type="SHA1">f89398489879527834891c4576</Hash>
+    </Item>
+  </Content>
+</Infringement>

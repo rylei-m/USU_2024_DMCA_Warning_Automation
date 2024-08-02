@@ -1,21 +1,38 @@
-<INCIDENT>
-
-<DESCRIPTION>xml email processing</DESCRIPTION>
-
-<SERVICE>Desktop Service</SERVICE>
-
-<CATEGORY>Performance Issue</CATEGORY>
-
-<OWNER>Quality Assurance</OWNER>
-
-<OWNERTEAM>IT</OWNERTEAM>
-
-<URGENCY>Medium</URGENCY>
-
-<IMPACT>Medium</IMPACT>
-
-<SOURCE>Email</SOURCE>
-
-<PROFILELINK>Kelly Yao</PROFILELINK>
-
-</INCIDENT>
+<?xml version="1.0" encoding="UTF-8"?>
+<Infringement xmlns="http://www.acns.net/ACNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.acns.net/ACNS http://www.acns.net/v1.2/ACNS2v1_2.xsd">
+  <Alive>The following data is made up for testing purposes:</Alive>
+  <Case>
+    <ID>89218938942874</ID>
+    <Status>Open</Status>
+    <Severity>High</Severity>
+  </Case>
+  <Complainant>
+    <Entity>Some Corporation</Entity>
+    <Contact>Something - Compliance</Contact>
+    <Address>123 Outside drive, Suite 111
+Somewhere, UT 84401</Address>
+    <Phone>+1 (123) 456 7890</Phone>
+    <Email>email@copyright-notice.com</Email>
+  </Complainant>
+  <Service_Provider>
+    <Entity>School</Entity>
+    <Email>dmca@school.edu</Email>
+  </Service_Provider>
+  <Source>
+    <TimeStamp>2024-06-20T19:10:03Z</TimeStamp>
+    <IP_Address>111.222.333.4</IP_Address>
+    <Port>12345</Port>
+    <Type>BitTorrent</Type>
+    <SubType BaseType="P2P" Protocol="BITTORRENT"/>
+    <Number_Files>1</Number_Files>
+  </Source>
+  <Content>
+    <Item>
+      <TimeStamp>2024-06-20T19:10:03Z</TimeStamp>
+      <Title>Lorax</Title>
+      <FileName>Lorax (2012) [REPACK] [1080p] [BluRay] [5.1] [YTS.MX]</FileName>
+      <FileSize>1823997290</FileSize>
+      <Hash Type="SHA1">fdbb61249d112f35cd5e12b368f860c9333c4576</Hash>
+    </Item>
+  </Content>
+</Infringement>
