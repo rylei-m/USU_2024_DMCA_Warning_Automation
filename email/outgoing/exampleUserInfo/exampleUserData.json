@@ -1,0 +1,8 @@
+{
+    "Root element": "PrivateSignIn",
+    "Data": {
+        "UserEmail": "YOUR_GMAIL@gmail.com",
+        "Password": "YOUR_APP_KEY",
+        "EmailTo": "EMAIL_YOURE_SENDING_TO@gmail.com"
+  }
+}
