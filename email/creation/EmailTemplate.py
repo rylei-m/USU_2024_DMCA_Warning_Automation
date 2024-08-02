@@ -1,3 +1,4 @@
+from XMLforDMCA.email.creation.privateEmailInfo.JsonConverter import Group, Organization, ContactInfo, EmailAddress
 from XMLforDMCA.parsedData.JsonConverter import (Title, IP_Address, Contact, Type, Filename,
                                                  SubType_Protocol, Timestamp, Entity)
 
@@ -34,11 +35,10 @@ Thank you for your prompt attention to this matter.
 
 Sincerely,
 
-[Name]
-[Your Position]
-[Your Company/Organization Name]
-[Your Contact Information]
-[Your Email Address]
+{Group}
+{Organization}
+{ContactInfo}
+{EmailAddress}
     """
 
     print(body)
