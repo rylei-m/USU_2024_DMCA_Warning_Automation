@@ -1,4 +1,5 @@
-from XMLforDMCA.parsedData.JsonConverter import (Title, IP_Address, Contact, Type, FileName, SubType_Protocol, Timestamp)
+from XMLforDMCA.parsedData.JsonConverter import (Title, IP_Address, Contact, Type, FileName,
+                                                 SubType_Protocol, Timestamp)
 
 
 def generated_email_subject():
