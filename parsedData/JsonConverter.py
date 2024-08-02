@@ -27,7 +27,8 @@ except FileNotFoundError as e:
             "Type": "",
             "FileName": "",
             "Timestamp": "",
-            "SubType.Protocol": ""
+            "SubType.Protocol": "",
+            "Entity": ""
         }
     }
 
@@ -41,3 +42,4 @@ Type = data['Type']
 FileName = data['FileName']
 Timestamp = data['Timestamp']
 SubType_Protocol = data['SubType.Protocol']
+Entity = data['Entity']
