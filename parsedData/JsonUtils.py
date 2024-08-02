@@ -17,3 +17,31 @@ def save_to_json(data, directory, base_name, extension):
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
     return file_path
+
+
+def load_json_data(file_path):
+    """Load JSON data from a file."""
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"The file {file_path} does not exist.")
+    with open(file_path, 'r') as file:
+        return json.load(file)
+
+
+def normalize_keys(data, key_mappings):
+    """Normalize dictionary keys according to the provided key_mappings."""
+    normalized_data = {}
+    for key, value in data.items():
+        # Check if current key should be normalized
+        normalized_key = key_mappings.get(key, key)
+        if isinstance(value, dict):
+            # Recursively normalize keys in nested dictionaries
+            normalized_data[normalized_key] = normalize_keys(value, key_mappings)
+        else:
+            normalized_data[normalized_key] = value
+    return normalized_data
+
+
+key_mappings = {
+    "FileName": "Filename",
+    "TimeStamp": "Timestamp"
+}
