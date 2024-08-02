@@ -1,0 +1,9 @@
+{
+    "Root element": "PrivateEmailInfo",
+    "Data": {
+        "Group": "YOUR_JOB_GROUP_HERE",
+        "Organization": "YOUR_ORGANIZATION_OR_COMPANY",
+        "ContactInfo": "YOUR_PHONE_NUMBER_OR_PREFERRED_CONTACT_METHOD",
+        "EmailAddress": "YOUR_EMAIL_ADDRESS"
+  }
+}

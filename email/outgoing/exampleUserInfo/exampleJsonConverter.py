@@ -1,6 +1,6 @@
 import json
 
-json_file_path = "YOUR_FILE_PATH_HERE"
+json_file_path = "/home/ryleim/PycharmProjects/XMLforDMCA/XMLforDMCA/email/outgoing/exampleUserInfo/userData.json"
 
 
 def load_json_data(file_path):
