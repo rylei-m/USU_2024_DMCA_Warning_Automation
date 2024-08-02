@@ -3,3 +3,4 @@ incoming/__pycache__/
 testFiles/
 /parsedData/JSONS/
 email/outgoing/USUEmailServer.py
+/email/outgoing/privateUserInfo
