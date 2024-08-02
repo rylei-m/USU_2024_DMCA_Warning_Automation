@@ -2,3 +2,4 @@ __pycache__/
 incoming/__pycache__/
 testFiles/
 /parsedData/JSONS/
+email/outgoing/USUEmailServer.py
