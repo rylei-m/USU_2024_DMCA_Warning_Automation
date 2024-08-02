@@ -40,6 +40,10 @@ To link your gmail:
 
 ## Resources/More Info:
 
+Digital Millennium Copyright Act (DMCA)
+- A 1998 United States copyright law that criminalizes production and dissemination of technology, devices, or services intended to circumvent measures that control access to copyrighted works (commonly known as digital rights management or DRM)
+- https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act
+
 smtplib
 - https://docs.python.org/3/library/smtplib.html
 - https://keentolearn.medium.com/automating-emails-with-python-a-comprehensive-guide-ba00fa98b92
