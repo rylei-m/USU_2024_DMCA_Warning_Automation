@@ -1,4 +1,4 @@
-from XMLforDMCA.parsedData.JsonConverter import (Title, IP_Address, Contact, Type, FileName,
+from XMLforDMCA.parsedData.JsonConverter import (Title, IP_Address, Contact, Type, Filename,
                                                  SubType_Protocol, Timestamp, Entity)
 
 
@@ -19,7 +19,7 @@ Details of Infringement:
     Description of Infringing Content: {Title}
     Content Type: {Type}
     Infringement Accessed By: {IP_Address}
-    Original Work Details: {FileName}
+    Original Work Details: {Filename}
 
 The copyright holder for the aforementioned content requests that you take immediate action to address this infringement.
 
