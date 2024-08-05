@@ -1,4 +1,4 @@
-# XMLforDMCA
+# DMCA Warning Automation
 
 ## About
 The goal of this program is to remove XML tagging from emails sent by the DMCA and automate the sending of warning emails to infringing users. 
